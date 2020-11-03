@@ -1,0 +1,3 @@
+tw* = weapon table
+tp* = player table (self in *_player_table)
+tc* = class table ()

@@ -1,0 +1,15 @@
+"base-tropical"
+{
+    "base"          "base"
+    "title"         "Base Tropical Gamemode"
+    "maps"          "^gm_|"
+    "menusystem"    "1"
+
+    "author_name"   "KKLLUUTTZZ"
+    "author_email"  "pantsrain@gmail.com"
+    "author_url"    "https://github.com/kklluuttzz"
+
+    "settings"
+    {
+    }
+}
