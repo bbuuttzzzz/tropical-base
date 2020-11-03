@@ -1,6 +1,12 @@
+COLOR_RED = Color(255, 0, 0, 255)
+
 function GM:InitializeAmmo()
-    -- first, create all of our necessary ammo types
+    -- we can override this function in a child gamemode to replace ammo types
+    -- for now heres some defaults
     game.AddAmmoType({name = "dummy"}) -- dummy ammo
-    game.AddAmmoType({name = "primary"}) -- ammo for people's primary weapon
-    game.AddAmmoType({name = "scrap"}) -- scrap, used in build mode and for some crafting
+    game.AddAmmoType({name = "light"}) -- pistol ammo
+    game.AddAmmoType({name = "medium"}) -- assault ammo
+    game.AddAmmoType({name = "long"}) -- sniper ammo
+    game.AddAmmoType({name = "shell"}) -- shotgun ammo
+    game.AddAmmoType({name = "rocket"}) -- explosive ammo
 end

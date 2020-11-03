@@ -182,3 +182,8 @@ function meta:FireBulletsLua(src, dir, spread, num, damage, attacker, force_mul,
 	end
 	table.Empty(temp_vel_ents)
 end
+
+function meta:ApplyDamage(nAmount, eType, tpAttacker, tInflictor, vHitPos, nForce)
+
+
+end
